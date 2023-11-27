@@ -59,12 +59,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.booklinks a{
+/* .booklinks a{
     color: blue;
-}
+} */
 a{
     text-decoration: none;
-    color: #333;
+    color:blue;
 
 }
 /* a:hover{ */
