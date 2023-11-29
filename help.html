@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Component with JS</title>
+</head>
+
+<body>
+    <h1>Dynamic Component Example</h1>
+
+    <div id="container">
+        <!-- Existing content or components -->
+    </div>
+
+    <button onclick="addComponent()">Add Component</button>
+
+    <script>
+        // function addComponent() {
+            // Create a new div element
+            var newDiv = document.createElement("div");
+
+            // Set attributes or styles if needed
+            newDiv.className = "new-component";
+            newDiv.innerHTML = `<h1>Poonam Bhatia</h1><nav><a href="index.html">Home</a><a href="page2.html">Prem Ragini</a><!-- <a href="poemshtml">Poems</a> --></nav>`;
+
+            // Append the new div to the container
+            document.getElementById("header").appendChild(newDiv);
+        // }
+    </script>
+</body>
+
+</html>
