@@ -13,7 +13,7 @@ function toggleDislike() {
     dislikeBtn.classList.toggle('disliked');
     likeBtn.classList.remove('liked');
 }
-
+// Creat a new div
 var newDiv = document.createElement("div");
 
 // Set attributes or styles if needed
@@ -26,3 +26,15 @@ newDiv.innerHTML = `<h1>Poonam Bhatia</h1>
 
 // Append the new div to the container
 document.getElementById("header").appendChild(newDiv);
+
+
+// Creat a new div
+var newDiv2 = document.createElement("div");
+
+// Set attributes or styles if needed
+newDiv2.className = "like_dilike";
+newDiv2.innerHTML = `<button id="likeBtn" onclick="toggleLike()">👍 Like</button>
+<button id="dislikeBtn" onclick="toggleDislike()">👎 Dislike</button>`;
+
+// Append the new div to the container
+document.getElementById("like").appendChild(newDiv2);
